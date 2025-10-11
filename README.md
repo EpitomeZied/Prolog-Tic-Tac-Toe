@@ -54,7 +54,7 @@ This project is a complete implementation of the classic Tic-Tac-Toe game using 
 
 ## Author
 
-Developed by [mahmoudabozied4].
+Developed by [mahmoudabozied4](https://github.com/mahmoudabozied4).
 
 ## License
 
