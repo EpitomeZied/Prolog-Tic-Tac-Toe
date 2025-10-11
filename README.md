@@ -20,9 +20,13 @@ This project is a complete implementation of the classic Tic-Tac-Toe game using 
 3. Start the game by running: `start_game.`
 4. The board positions are numbered from 1 to 9 as follows:
 
-1 | 2 | 3
-4 | 5 | 6
-7 | 8 | 9
+   ```
+    1 | 2 | 3
+   -----------
+    4 | 5 | 6
+   -----------
+    7 | 8 | 9
+   ```
 
 5. When prompted, enter the number corresponding to the square where you want to place your mark (`O`).
 6. The AI will make its move automatically (`X`).
@@ -50,7 +54,7 @@ This project is a complete implementation of the classic Tic-Tac-Toe game using 
 
 ## Author
 
-Developed by [Your Name].
+Developed by [mahmoudabozied4].
 
 ## License
 
