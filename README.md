@@ -1,61 +1,49 @@
-# Tic-Tac-Toe Game in Prolog
+# Prolog Tic-Tac-Toe 🎮
 
-## Description
+[![Prolog](https://img.shields.io/badge/Language-Prolog-blue.svg)](https://www.swi-prolog.org/)
+[![SWI-Prolog](https://img.shields.io/badge/Prolog-SWI--Prolog-orange.svg)](https://www.swi-prolog.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-EpitomeZied-black.svg)](https://github.com/EpitomeZied)
 
-This project is a complete implementation of the classic Tic-Tac-Toe game using Prolog. The game allows a human player to compete against an AI opponent. The player uses 'O' and the computer uses 'X'. The game is played on a standard 3x3 grid.
+A **command-line Tic-Tac-Toe game implemented in Prolog**, featuring a **human player vs AI**.  
+This project showcases **logic programming**, **rule-based reasoning**, and **basic AI decision-making** using Prolog.
 
-## Features
+> 👤 **Author:** EpitomeZied  
+> 🔗 **Repository:** https://github.com/EpitomeZied/Prolog-Tic-Tac-Toe
 
-- Interactive human vs. computer gameplay.
-- AI opponent with strategic move selection.
-- Text-based user interface for easy play in the console.
-- Win, lose, and draw conditions with appropriate notifications.
-- Input validation to ensure valid moves.
-- Clear display of the game board after each move.
+---
 
-## How to Play
+## 📌 Features
 
-1. Start the Prolog interpreter.
-2. Load the game file with the command: `[tictactoe].`
-3. Start the game by running: `start_game.`
-4. The board positions are numbered from 1 to 9 as follows:
+- Human vs AI gameplay
+- Rule-based AI decision making
+- Automatic win, loss, and draw detection
+- Input validation for illegal moves
+- Clean console-based board display
+- Written in pure Prolog
 
-   ```
-    1 | 2 | 3
-   -----------
-    4 | 5 | 6
-   -----------
-    7 | 8 | 9
-   ```
+---
 
-5. When prompted, enter the number corresponding to the square where you want to place your mark (`O`).
-6. The AI will make its move automatically (`X`).
-7. The game will indicate if there is a winner or if the game ends in a draw.
-8. After game end, you can restart by running: `start_game.` again.
+## 🧠 AI Strategy
 
-## Requirements
+The AI follows a **rule-based strategy**:
+1. Plays winning moves when available
+2. Blocks opponent’s winning moves
+3. Chooses valid remaining positions strategically
 
-- SWI-Prolog or any ANSI-compliant Prolog interpreter.
-- Console or terminal environment for text input and output.
+The AI logic is modular and can be upgraded to:
+- Minimax
+- Alpha-Beta pruning
+- Difficulty levels
 
-## Code Structure
+---
 
-- The game logic is contained in `tictactoe.pl`.
-- Winning conditions and board state validations are implemented.
-- AI uses simple strategic logic for competitive gameplay.
-- Board display and user interaction occur in the console.
+## 🛠 Requirements
 
-## Future Improvements
+- **SWI-Prolog** (recommended)
 
-- Add color to the console output for better experience.
-- Highlight winning lines.
-- Implement a graphical user interface (GUI).
-- Enhance AI with advanced algorithms.
-
-## Author
-
-Developed by [mahmoudabozied4](https://github.com/mahmoudabozied4).
-
-## License
-
-This project is open source and available under the MIT License.
+### Install on Ubuntu / Debian:
+```bash
+sudo apt update
+sudo apt install swi-prolog
+EpitomeZied
